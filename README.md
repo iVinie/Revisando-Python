@@ -1,4 +1,4 @@
-# Revisando Python - Fundamentos e Automação
+# Revisando Python
 
 Este repositório serve como um portfólio de estudos, reunindo exercícios e projetos práticos desenvolvidos durante a minha jornada de aprofundamento em Python. O objetivo principal é solidificar os conhecimentos da linguagem e suas aplicações em automação e desenvolvimento.
 
