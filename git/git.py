@@ -135,8 +135,21 @@ git diff: mostra as alterações entre diferentes commits, entre um commit e a w
 
 
 
-     Chave ssh
-    Uma chave que está na minha máquina, para que não precise ficar digitando user ou senha o tempo todo
-    Site https://docs.github.com/pt/authentication/connecting-togithub-with-ssh
+
+
+
+
+Tipos de versões:
+
+
+Major (Versão Principal): Indicada pela primeira parte do número da versão. Esta versão inclui mudanças significativas, grandes novas funcionalidades ou reestruturações que podem quebrar a compatibilidade com versões anteriores.
+
+Minor (Versão Secundária): Indicada pela segunda parte do número da versão. Esta versão adiciona funcionalidades ou melhorias novas, mas mantém a compatibilidade com versões anteriores.
+
+Patch (Correção de Bugs): Indicada pela terceira parte do número da versão. Esta versão é focada na correção de bugs e pequenas melhorias que não afetam a compatibilidade com versões anteriores.
+
 
 '''
+
+
+
