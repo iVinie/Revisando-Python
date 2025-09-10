@@ -1,0 +1,31 @@
+Data Science e Machine Learning
+NumPy: Essencial para computação numérica, oferece suporte para arrays e matrizes de alta performance.
+
+Pandas: A principal biblioteca para análise e manipulação de dados, com estruturas de dados como DataFrames.
+
+Matplotlib: Usada para criar gráficos e visualizações de dados estáticas, animadas e interativas.
+
+Scikit-learn: Uma biblioteca abrangente para machine learning, com ferramentas para classificação, regressão, agrupamento, etc.
+
+TensorFlow: Desenvolvida pelo Google, é uma plataforma open-source para machine learning, ideal para aprendizado profundo (deep learning).
+
+PyTorch: Similar ao TensorFlow, é uma biblioteca de machine learning para aplicações de visão computacional e processamento de linguagem natural.
+
+Desenvolvimento Web
+Flask: Um micro-framework leve e flexível para construir aplicações web simples e APIs.
+
+Django: Um framework web de alto nível e robusto, ideal para projetos complexos e em grande escala.
+
+Requests: Uma biblioteca simples para fazer requisições HTTP, facilitando a interação com APIs.
+
+Automação e Web Scraping
+Beautiful Soup: Usada para extrair dados de arquivos HTML e XML, perfeita para web scraping.
+
+Scrapy: Um framework de código aberto para extrair dados de sites de forma rápida e eficiente.
+
+Selenium: Automatiza navegadores web, sendo útil para testes e interações complexas com páginas da web.
+
+Processamento de Linguagem Natural (PLN)
+NLTK (Natural Language Toolkit): Uma das bibliotecas mais antigas e conhecidas para PLN, com ferramentas para tokenização, lematização, etc.
+
+spaCy: Uma biblioteca moderna e eficiente para PLN, focada em velocidade e facilidade de uso em produção.
