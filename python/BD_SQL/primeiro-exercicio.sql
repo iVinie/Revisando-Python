@@ -1,0 +1,39 @@
+CREATE DATABASE restaurante;
+
+CREATE TABLE IF NOT EXISTS clientes(id SERIAL PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    telefone VARCHAR(15) NOT NULL,
+    endereco VARCHAR(255),
+    data_cadastro DATE NOT NULL DEFAULT CURRENT_DATE
+);
+
+CREATE TABLE IF NOT EXISTS fornecedores(
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    telefone VARCHAR(15) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    data_contratacao DATE NOT NULL DEFAULT CURRENT_DATE,
+    observacao VARCHAR(255)
+);
+
+CREATE TABLE IF NOT EXISTS lanches(
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    descricao VARCHAR(255) NOT NULL,
+    preco FLOAT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS pedidos(
+    id SERIAL PRIMARY KEY,
+    mesa INT NOT NULL,
+    data_e_hora VARCHAR(100),
+    situacao BOOLEAN NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS estoque(
+    ID SERIAL PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    categoria VARCHAR(100) NOT NULL,
+    quantidade FLOAT NOT NULL
+);
+
